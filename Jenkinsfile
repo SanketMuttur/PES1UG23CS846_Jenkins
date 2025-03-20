@@ -13,7 +13,6 @@ pipeline {
             steps {
                 build 'PES1UG23CS846-1'
                 sh 'g++ main.cpp -o output'
-                sh 'IntentionalErrorXD'
             }
         }
         stage('Test') {
