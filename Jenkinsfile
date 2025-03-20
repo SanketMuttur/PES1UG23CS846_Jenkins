@@ -9,7 +9,7 @@ pipeline {
         //         ])
         //     }
         // }
-        stge('Build') { //#IntentionalError - stge != stage
+        stage('Build') {
             steps {
                 build 'PES1UG23CS846-1'
                 sh 'g++ main.cpp -o output'
